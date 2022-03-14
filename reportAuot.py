@@ -1,5 +1,4 @@
 from lib2to3.pgen2 import driver
-from selenium import webdriver
 from time import sleep
 from selenium import webdriver
 import date as Info
