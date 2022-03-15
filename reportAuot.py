@@ -1,4 +1,4 @@
-from lib2to3.pgen2 import driver
+import sys
 from time import sleep
 from selenium import webdriver
 import date as Info
@@ -27,4 +27,4 @@ try:
 except (KeyboardInterrupt, SystemExit):
     print("error")
     scheduler.remove_all_jobs()
-    driver.close()
+    sys.exit()
